@@ -16,6 +16,7 @@ header {
 }
 
 .navbar {
+  z-index: 2;
   position: absolute;
   padding: 30px;
   display: flex;
@@ -75,6 +76,10 @@ a.logo {
     padding: 0;
   }
 
+  .menu-hamburger{
+    width: 45px;
+  }
+
   a.logo{
     position: absolute;
     top: 35px;
@@ -113,7 +118,7 @@ a.logo {
   }
   .menu-hamburger{
     position: absolute;
-    top: 35px;
+    margin-top: 10px;
     right: 50px;
     width: 35px;
   }
@@ -121,7 +126,7 @@ a.logo {
 /* head */
 /* Slide 1*/
 .slide1 {
-  z-index: 2;
+  z-index: 0;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -201,6 +206,18 @@ a.logo {
   color: #f9c03b;
 }
 
+#scrollToTopBtn {
+  z-index: 99;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  font-size: 24px;
+  line-height: 1;
+  background-color: #FCFF77;
+  
+}
+
 /* Style bouton dans le header */
 header .btn {
   background-color: #fff;
@@ -221,7 +238,7 @@ header .btn.orange:hover {
 
 /* Slide 2*/
 .slide2 {
-  z-index: 2;
+  z-index: 1;
   overflow: hidden;
   background-color: #000;
   position: relative;

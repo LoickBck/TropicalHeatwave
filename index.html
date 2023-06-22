@@ -15,18 +15,19 @@
         </a>
         <div class="nav-links">
           <ul>
-            <li><a href="#acc">ACCUEIL</a></li>
-            <li><a href="#inf">INFOS</a></li>
-            <li><a href="artist.html">LINE UP</a></li>
-            <li><a href="#spon">SPONSORS</a></li>
-            <li><a href="#cont">CONTACT</a></li>
-            <li><a href="#rese" class="btn white">RESERVEZ TICKETS</a></li>
+            <li><a href="#acc" onclick="resetNavPosition()">ACCUEIL</a></li>
+            <li><a href="#inf" onclick="resetNavPosition()">INFOS</a></li>
+            <li><a href="artist.html" onclick="resetNavPosition()">LINE UP</a></li>
+            <li><a href="#spon"onclick="resetNavPosition()">SPONSORS</a></li>
+            <li><a href="#cont"onclick="resetNavPosition()">CONTACT</a></li>
+            <li><a href="#rese" class="btn white" onclick="resetNavPosition()">RESERVEZ TICKETS</a></li>
           </ul>
         </div>
         <img src="photos\menu-btn.png" alt="menu hamburger"
         class="menu-hamburger" id="menuBtn">
     </nav>
   </header>
+  <button id="scrollToTopBtn" onclick="scrollToTop()">&#8593;</button>
       <!--Slide 1-->
       <div class="slide1" id="acc">
         <h1>30 juin - 2 et 3 juillet <br>
