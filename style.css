@@ -16,7 +16,7 @@ header {
 }
 
 .navbar {
-  z-index: 2;
+  z-index: 99;
   position: absolute;
   padding: 30px;
   display: flex;
