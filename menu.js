@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Fonction pour réinitialiser la position de la barre de navigation et fermer le menu hamburger
   function resetNavPosition() {
     var nav = document.querySelector('nav');
-    nav.style.position = 'fixed';
     nav.style.top = '0';
     nav.style.left = '0';
     navLinks.classList.remove('mobile-menu');
