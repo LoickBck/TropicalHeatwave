@@ -947,7 +947,7 @@ textarea{
     margin-top: 340px;
   }
   .contact-container{
-    height: 175vh;
+    height: 180vh;
   }
 }
 @media screen and (max-width:371px) {
@@ -959,7 +959,7 @@ textarea{
     margin-top: 320px;
   }
   .contact-container{
-    height: 180vh;
+    height: 190vh;
   }
 }
 @media screen and (max-width:340px) {
