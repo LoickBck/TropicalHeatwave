@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuBtn.src = "photos/menu-btn.png";
   }
 
-  // Fonction pour faire défiler jusqu'en haut de la page
+  // Fonction pour faire défiler jusqu'en haut de la page 
   function scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -33,13 +33,16 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Écouteur d'événement pour le scroll
-  window.addEventListener("scroll", function() {
-    if (window.scrollY > 0) {
-      scrollToTopBtn.style.display = "block";
-    } else {
-      scrollToTopBtn.style.display = "none";
-    }
-  });
+window.addEventListener("scroll", function() {
+  if (window.scrollY > 0) {
+    scrollToTopBtn.style.backgroundImage = "url(photos\arrow up.png)";
+    scrollToTopBtn.style.display = "block";
+    scrollToTopBtn.style.textIndent = "-9999px";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+});
+
 
   // Sélectionnez tous les liens de navigation
   var navLinksList = document.querySelectorAll('.nav-links a');

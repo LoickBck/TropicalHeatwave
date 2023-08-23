@@ -1,0 +1,5 @@
+{
+    "CodeGPT.query.language": "French",
+    "CodeGPT.temperature": 0.5,
+    "CodeGPT.maxTokens": 1024
+}
