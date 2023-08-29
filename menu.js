@@ -54,3 +54,9 @@ window.addEventListener("scroll", function() {
   // Ajoutez un gestionnaire d'événement au bouton de défilement vers le haut
   scrollToTopBtn.addEventListener('click', scrollToTop);
 });
+
+// Fonction pour masquer l'écran de chargement
+function hideLoader() {
+  document.querySelector('.loader-container').style.display = 'none';
+}
+setTimeout(hideLoader, 1250); // 
