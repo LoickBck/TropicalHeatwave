@@ -472,7 +472,7 @@ header .btn.orange:hover {
 .slide4 {
   width: 100%;
   display: flex;
-  min-height: 80vh;
+  min-height: 60vh;
   align-items: center;
   flex-direction: column;
 }
@@ -487,7 +487,7 @@ header .btn.orange:hover {
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -503,16 +503,14 @@ header .btn.orange:hover {
 .card1,
 .card2,
 .card3 {
-  flex-basis: calc(33.33% - 20px);
   min-width: 200px;
   background: #4A4A4A;
-  border-radius: 16px;
+  border-radius: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 20px;
-  margin: 10px;
+  margin: 50px;
 }
 
 .text1 {
@@ -615,6 +613,7 @@ header .btn.orange:hover {
   align-items: center;
   
 }
+
 /*Mobile*/
 @media (max-width: 1200px) {
   .cards {
@@ -691,6 +690,7 @@ header .btn.orange:hover {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  margin-top: 20px;
 }
 
 .footer-icon {
