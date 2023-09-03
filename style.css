@@ -1075,7 +1075,6 @@ textarea{
   object-fit: cover;
 }
 
-/* Cacher le logo Spotify par défaut */
 .spotify-logo {
   display: none;
   position: absolute;
@@ -1090,7 +1089,6 @@ textarea{
   max-height: 25%;
 }
 
-/* Afficher le logo Spotify au survol de la photo */
 .photo:hover .spotify-logo {
   display: block;
   filter: none;
@@ -1100,9 +1098,8 @@ textarea{
   filter: blur(4px);
 }
 
-/* Réduire la taille de l'image Spotify et la rendre nette */
 .photo:hover img.spotify-img {
-  width: 30px; /* Ajustez la largeur selon vos préférences */
+  width: 30px;
   height: auto;
 }
 .infos {
@@ -1144,11 +1141,32 @@ textarea{
     width: calc(50%);
     margin-bottom: 0; 
   }
+  .spotify-logo {
+    max-width: 25%;
+    max-height: 25%;
+  }
+}
+@media (max-width: 1100px) {
+  .spotify-logo{
+    max-width: 100px;
+    max-height: 75px;
+  }
 }
 @media (max-width: 800px) {
   .boite {
     width: calc(100%);
     margin-bottom: 0; 
+    
+  }
+  .spotify-logo{
+    max-width: 150px;
+    max-height: 100px;
+  }
+}
+@media (max-width: 535px) {
+  .spotify-logo{
+    max-width: 150px;
+    max-height: 100px;
   }
 }
 /* artist */
