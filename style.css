@@ -845,7 +845,8 @@ textarea{
     height: 100px;
   }
   .contact-container {
-    height: 120vh;
+    height: 140vh;
+    flex-direction: column;
   }
 
   .section-info, .section-form {
@@ -896,7 +897,7 @@ textarea{
   }
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width:1210px) {
   .contact-location p {
     margin-bottom: 20px;
   }
@@ -909,7 +910,7 @@ textarea{
     margin-top: 130px;
   }
   .contact-container{
-    height: 120vh;
+    height: 150vh;
     flex-direction: column;
   }
 } 
