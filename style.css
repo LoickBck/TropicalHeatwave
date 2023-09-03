@@ -845,8 +845,7 @@ textarea{
     height: 100px;
   }
   .contact-container {
-    flex-direction: column; /* Affiche les sections l'une au-dessus de l'autre */
-    height: 140vh;
+    height: 120vh;
   }
 
   .section-info, .section-form {
@@ -857,7 +856,7 @@ textarea{
   .section-info {
     display: flexbox ;
     order: 1; /* Inverse l'ordre pour que section-info soit au-dessus */
-    margin-bottom: -320px;
+    margin-bottom: -80px;
   }
 
   .section-info h1, .section-info p {
@@ -869,7 +868,7 @@ textarea{
     order: 2;
     flex-direction: column; /* Affiche les éléments en colonne */
     max-width: 80%;
-    margin-top: 400px;
+    margin-top: 100px;
   }
 
   .form-column {
@@ -897,20 +896,21 @@ textarea{
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1020px) {
   .contact-location p {
     margin-bottom: 20px;
   }
 
   .section-info{
-    margin-top: 130px;
+    margin-top: 60px;
   }
 
   .section-form{
-    margin-top: 340px;
+    margin-top: 130px;
   }
   .contact-container{
-    height: 190vh;
+    height: 120vh;
+    flex-direction: column;
   }
 } 
 
@@ -924,7 +924,7 @@ textarea{
   }
 
   .section-form{
-    margin-top: 340px;
+    margin-top: 130px;
   }
   .contact-container{
     height: 165vh;
@@ -933,58 +933,88 @@ textarea{
 
 @media screen and (max-width:528px) {
   .section-info{
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
   .section-form{
-    margin-top: 340px;
-  }
-
-}
-@media screen and (max-width:399px) {
-  .section-info{
     margin-top: 100px;
   }
-
-  .section-form{
-    margin-top: 340px;
-  }
   .contact-container{
-    height: 200vh;
+    height: 140vh;
   }
+
 }
-@media screen and (max-width:371px) {
+@media screen and (max-width:426px) {
   .section-info{
     margin-top: 120px;
   }
 
   .section-form{
-    margin-top: 320px;
+    margin-top: 100px;
   }
   .contact-container{
-    height: 210vh;
+    height: 200vh;
   }
 }
-@media screen and (max-width:340px) {
-  .contact-info p{
-    max-width: 80%;
-  }
+@media screen and (max-width:415px) {
   .section-info{
-    margin-top: 150px;
+    margin-top: 120px;
   }
 
   .section-form{
-    margin-top: 360px;
+    margin-top: 100px;
+  }
+  .contact-container{
+    height: 165vh;
+  }
+}
+@media screen and (max-width:399px) {
+  .section-info{
+    margin-top: 120px;
+  }
+
+  .section-form{
+    margin-top: 120px;
+  }
+  .contact-container{
+    height: 155vh;
+  }
+}
+@media screen and (max-width:378px) {
+  .section-info{
+    margin-top: 120px;
+  }
+
+  .section-form{
+    margin-top: 100px;
+  }
+  .contact-container{
+    height: 190vh;
+  }
+}
+@media screen and (max-width:360px) {
+  .section-info{
+    margin-top: 120px;
+  }
+
+  .section-form{
+    margin-top: 100px;
+  }
+  .contact-container{
+    height: 175vh;
   }
 }
 
 @media screen and (max-width:331px) {
   .section-info{
-    margin-top: 160px;
+    margin-top: 120px;
   }
 
   .section-form{
-    margin-top: 340px;
+    margin-top: 120px;
+  }
+  .contact-container{
+    height: 200vh;
   }
 }
 @media screen and (max-width:301px) {
@@ -1006,7 +1036,7 @@ textarea{
   }
 
   .section-form{
-    margin-top: 320px;
+    margin-top: 100px;
   }
   .contact-container{
     height: 220vh;
