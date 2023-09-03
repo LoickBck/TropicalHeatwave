@@ -730,7 +730,7 @@ header .btn.orange:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 100vh;
   background-color: #FFFFFF;
   border-radius: 10px;
   margin-left: 30px;
@@ -845,7 +845,7 @@ textarea{
     height: 100px;
   }
   .contact-container {
-    height: 140vh;
+    height: 210vh;
     flex-direction: column;
   }
 
@@ -909,10 +909,6 @@ textarea{
   .section-form{
     margin-top: 130px;
   }
-  .contact-container{
-    height: 150vh;
-    flex-direction: column;
-  }
 } 
 
 @media screen and (max-width:720px) {
@@ -928,7 +924,7 @@ textarea{
     margin-top: 130px;
   }
   .contact-container{
-    height: 165vh;
+    height: 195vh;
   }
 }
 
@@ -941,11 +937,23 @@ textarea{
     margin-top: 100px;
   }
   .contact-container{
-    height: 140vh;
+    height: 190vh;
   }
 
 }
-@media screen and (max-width:426px) {
+@media screen and (max-width:450px) {
+  .section-info{
+    margin-top: 120px;
+  }
+
+  .section-form{
+    margin-top: 100px;
+  }
+  .contact-container{
+    height: 200vh;
+  }
+}
+@media screen and (max-width:428px) {
   .section-info{
     margin-top: 120px;
   }
@@ -966,7 +974,7 @@ textarea{
     margin-top: 100px;
   }
   .contact-container{
-    height: 165vh;
+    height: 210vh;
   }
 }
 @media screen and (max-width:399px) {
@@ -978,7 +986,7 @@ textarea{
     margin-top: 120px;
   }
   .contact-container{
-    height: 155vh;
+    height: 220vh;
   }
 }
 @media screen and (max-width:378px) {
@@ -990,7 +998,7 @@ textarea{
     margin-top: 100px;
   }
   .contact-container{
-    height: 190vh;
+    height: 230vh;
   }
 }
 @media screen and (max-width:360px) {
@@ -1002,20 +1010,20 @@ textarea{
     margin-top: 100px;
   }
   .contact-container{
-    height: 175vh;
+    height: 240vh;
   }
 }
 
 @media screen and (max-width:331px) {
   .section-info{
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   .section-form{
-    margin-top: 120px;
+    margin-top: 100px;
   }
   .contact-container{
-    height: 200vh;
+    height: 220vh;
   }
 }
 @media screen and (max-width:301px) {
@@ -1024,7 +1032,7 @@ textarea{
   }
 
   .section-form{
-    margin-top: 320px;
+    margin-top: 100px;
   }
 }
 @media screen and (max-width:281px) {
@@ -1040,7 +1048,7 @@ textarea{
     margin-top: 100px;
   }
   .contact-container{
-    height: 220vh;
+    height: 240vh;
   }
 }
 
