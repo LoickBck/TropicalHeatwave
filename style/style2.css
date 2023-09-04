@@ -12,7 +12,7 @@ body {
 /* head */
 header {
   width: 100vw;
-  background-color: rgba(red, green, blue, alpha);
+  background-color: rgba(red, green, blue, 0);
   background-size: cover;
 }
 
